@@ -12,4 +12,4 @@ aplikasi berbasis web untuk mencatat skor pertandingan sepak bola dan menampilka
 2. Pindahkan folder ke dalam direktori htdocs XAMPP
 3. Buat database di phpMyAdmin dengan nama db_klasemen
 4. Import file db_klasemen.sql
-5. Jalankan aplikasi melalui browser http://localhost/klasemen_app/index.php
+5. Jalankan aplikasi melalui browser http://localhost/klasemen-sepak-bola-main/index.php
