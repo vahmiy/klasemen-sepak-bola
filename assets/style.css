@@ -1,0 +1,23 @@
+body {
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card {
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+.btn-custom {
+    border-radius: 10px;
+}
+.form-select,
+.form-control {
+    border-radius: 8px;
+}
+.btn-danger {
+    background-color: #ff4d4f;
+    border: none;
+}
+.btn-danger:hover {
+    background-color: #e43f3f;
+}
