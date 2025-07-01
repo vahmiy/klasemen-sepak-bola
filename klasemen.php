@@ -24,11 +24,9 @@ while ($m = $match_query->fetch_assoc()) {
     $s1 = $m['skor_klub1'];
     $s2 = $m['skor_klub2'];
 
-    // Tambah jumlah main
     $klasemen[$id1]['main']++;
     $klasemen[$id2]['main']++;
 
-    // Tambah GM dan GK
     $klasemen[$id1]['gm'] += $s1;
     $klasemen[$id1]['gk'] += $s2;
 
@@ -51,7 +49,6 @@ while ($m = $match_query->fetch_assoc()) {
     }
 }
 
-// Urutkan berdasarkan poin, lalu selisih gol jika sama
 usort($klasemen, function($a, $b) {
     if ($b['poin'] === $a['poin']) {
         $selisihA = $a['gm'] - $a['gk'];
