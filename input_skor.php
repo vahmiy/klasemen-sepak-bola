@@ -1,7 +1,6 @@
 <?php
 include 'koneksi.php';
 
-// Ambil daftar klub untuk dropdown
 $klub_result = $conn->query("SELECT * FROM klub ORDER BY nama");
 $klub_options = "";
 while ($klub = $klub_result->fetch_assoc()) {
